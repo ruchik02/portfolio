@@ -1,0 +1,24 @@
+ <article className="testimonial">
+          <div className="client_avatar">
+            <img src={AV1} alt="avatar one" />
+            <h5 className="client_name">Gourav Seghal</h5>
+            <small className="client_review">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+              praesentium, veritatis, dicta libero illum eaque aliquam assumenda
+              repudiandae vel ea nesciunt explicabo, in dignissimos ipsam cumque
+              provident eveniet odio labore?
+            </small>
+          </div>
+        </article>
+        <article className="testimonial">
+          <div className="client_avatar">
+            <img src={AV1} alt="avatar one" />
+            <h5 className="client_name">Gourav Seghal</h5>
+            <small className="client_review">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+              praesentium, veritatis, dicta libero illum eaque aliquam assumenda
+              repudiandae vel ea nesciunt explicabo, in dignissimos ipsam cumque
+              provident eveniet odio labore?
+            </small>
+          </div>
+</article>
