@@ -1,3 +1,11 @@
+Link of Netlify:
+Codesandbox Link:https://0cvbwy.csb.app/
+
+
+
+https://user-images.githubusercontent.com/83516020/160162790-88f5c27b-e801-4769-b8b8-b75ba622e9f3.mp4
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
