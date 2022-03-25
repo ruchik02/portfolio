@@ -46,9 +46,9 @@ footer a {
   color: var(--color-bg);
 }
 /* ==============MEDIA QUERIES (SMALL DEVICES)================*/
-@media screen and(max-width:700px) {
+@media screen and (max-width:700px) {
   .permalinks {
-      background: red;
+      /* background: red; */
        flex-direction: column;
     gap: 1.5rem;
   }
