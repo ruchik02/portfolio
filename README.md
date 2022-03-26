@@ -1,4 +1,4 @@
-Link of Netlify:
+
 Codesandbox Link:https://0cvbwy.csb.app/
 
 
