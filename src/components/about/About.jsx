@@ -38,10 +38,9 @@ const About = () => {
           </article>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus aut cupiditate perspiciatis impedit possimus molestiae
-          magni, porro accusamus quas laudantium, eaque ullam id inventore ipsa
-          sunt! Libero natus incidunt blanditiis?
+          4th-year Computer Science Engineering and doing specialization in Full-stack. I have 
+          a huge interest in a web development. I have learned: HTML,CSS,Javascript,Bootstrap,React,MERN etc.  I have joined Geekyants as SDE intern.The aim of my life is to become a good Knowledgeable person
+          and the share the acquired knowledge in the CS domain as much as possible.
         </p>
         <a href="#contact" className="btn btn-primary">
           Let's Talk
