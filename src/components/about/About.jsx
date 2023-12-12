@@ -12,40 +12,46 @@ const About = () => {
       <h2>About Me</h2>
       <div className="container about_container">
         <div className="about_me">
-        <div className="about_me-image">
-          <img src={Me} alt="about-image" />
-        </div>
+          <div className="about_me-image">
+            <img src={Me} alt="about-image" />
+          </div>
         </div>
 
-      <div className="about_content">
-        <div className="about_cards">
-          <article className="about_card">
-            <FaAward className="about_icons" />
-            <h5>Experience</h5>
-            <small>9th months Working</small>
-          </article>
+        <div className="about_content">
+          <div className="about_cards">
+            <article className="about_card">
+              <FaAward className="about_icons" />
+              <h5>Experience</h5>
+              <small>1.5 Years Working</small>
+            </article>
 
-          <article className="about_card">
-            <FiUsers className="about_icons" />
-            <h5>Clients</h5>
-            <small>300+ Worldwide</small>
-          </article>
+            <article className="about_card">
+              <FiUsers className="about_icons" />
+              <h5>Clients</h5>
+              <small>150+ Worldwide</small>
+            </article>
 
-          <article className="about_card">
-            <VscFolderLibrary className="about_icons" />
-            <h5>Projects</h5>
-            <small>50+ Completed </small>
-          </article>
+            <article className="about_card">
+              <VscFolderLibrary className="about_icons" />
+              <h5>Projects</h5>
+              <small>50+ Completed </small>
+            </article>
+          </div>
+          <p>
+            I am a skilled software developer with over 1.5+ year of valuable
+            experience, currently employed at GeekyAnts. My expertise primarily
+            lies in react and react-native. I possess in-depth knowledge of
+            various technologies and tools including git, state management,
+            routing, and lifecycle methods within React applications. My passion
+            for coding drives me to continually expand my skill set and stay
+            up-to-date with industry trends. I am committed to delivering
+            high-quality software solutions and thrive in collaborative,
+            innovative environments.
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
-        <p>
-          4th-year Computer Science Engineering and doing specialization in Full-stack. I have 
-          a huge interest in a web development. I have learned: HTML,CSS,Javascript,Bootstrap,React,MERN etc.  I have joined Geekyants as SDE intern.The aim of my life is to become a good Knowledgeable person
-          and the share the acquired knowledge in the CS domain as much as possible.
-        </p>
-        <a href="#contact" className="btn btn-primary">
-          Let's Talk
-        </a>
-      </div>
       </div>
     </section>
   );

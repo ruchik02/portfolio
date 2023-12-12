@@ -3,9 +3,9 @@ import "./portfolio.css";
 import PORT1 from "../../assets/port.png";
 import PORT2 from "../../assets/a.jpg";
 import PORT3 from "../../assets/myspitify.png";
-import PORT4 from "../../assets/weather.png";
-import PORT5 from "../../assets/greeting.jpg";
-import PORT6 from "../../assets/slot.jpg";
+// import PORT4 from "../../assets/weather.png";
+// import PORT5 from "../../assets/greeting.jpg";
+// import PORT6 from "../../assets/slot.jpg";
 
 const data = [
   {
@@ -29,27 +29,27 @@ const data = [
     github: "https://github.com/ruchik02/spotify-clone",
     demo: "https://spotify-clone-html-css-js.netlify.app",
   },
-  {
-    id: 4,
-    image: PORT4,
-    title: "Weather App",
-    github: "https://github.com/ruchik02/weather-app-using-js-api",
-    demo: "https://weather-app-api-javascript.netlify.app",
-  },
-  {
-    id: 5,
-    image: PORT5,
-    title: "Greeting app",
-    github: "https://github.com/ruchik02/Greeting",
-    demo: "https://greeting-react.netlify.app",
-  },
-  {
-    id: 6,
-    image: PORT6,
-    title: "Slot Game",
-    github: "https://github.com/ruchik02/slot-game",
-    demo: "https://slot-game-react.netlify.app",
-  },
+  // {
+  //   id: 4,
+  //   image: PORT4,
+  //   title: "Weather App",
+  //   github: "https://github.com/ruchik02/weather-app-using-js-api",
+  //   demo: "https://weather-app-api-javascript.netlify.app",
+  // },
+  // {
+  //   id: 5,
+  //   image: PORT5,
+  //   title: "Greeting app",
+  //   github: "https://github.com/ruchik02/Greeting",
+  //   demo: "https://greeting-react.netlify.app",
+  // },
+  // {
+  //   id: 6,
+  //   image: PORT6,
+  //   title: "Slot Game",
+  //   github: "https://github.com/ruchik02/slot-game",
+  //   demo: "https://slot-game-react.netlify.app",
+  // },
 ];
 
 const Portfolio = () => {

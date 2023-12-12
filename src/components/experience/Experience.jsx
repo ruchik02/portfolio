@@ -15,7 +15,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-              <h4>HTML</h4>
+              <h4>React</h4>
               <small className='text-light'>Advanced</small>
               </div>
               
@@ -24,7 +24,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-              <h4>CSS</h4>
+              <h4>React-Native</h4>
               <small className='text-light'>Intermediate</small>
               </div>
               
@@ -42,7 +42,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-              <h4>Bootstrap</h4>
+              <h4>GraphQL</h4>
               <small className='text-light'>Basic</small>
               </div>
               
@@ -51,8 +51,8 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-              <h4>Jquery</h4>
-              <small className='text-light'>Basic</small>
+              <h4>Vue.js</h4>
+              <small className='text-light'>Intermediate</small>
               </div>
               
             </article>
@@ -60,7 +60,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-              <h4>React</h4>
+              <h4>TypeScript</h4>
               <small className='text-light'>Intermediate</small>
               </div>
               
@@ -108,7 +108,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
              <div>
-             <h4>Java</h4>
+             <h4>Laravel</h4>
               <small className='text-light'>Basic</small>
              </div>
             </article>
