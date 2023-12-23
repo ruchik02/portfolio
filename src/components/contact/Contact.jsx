@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import {FaTelegramPlane} from 'react-icons/fa'
@@ -8,11 +8,24 @@ import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const form = useRef();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('service_4spcrnk', 'template_na5knsk', form.current, 'rfnXxijYlJljrd0a7')
+  //   e.target.reset()
+  // };
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_iohjs3j', 'template_na5knsk', form.current, 'rfnXxijYlJljrd0a7')
-    e.target.reset()
+    emailjs.sendForm('service_4spcrnk', 'template_na5knsk', form.current, 'rfnXxijYlJljrd0a7')
+      .then((response) => {
+        alert('Email sent successfully', response);
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
+
+    e.target.reset();
   };
 
   return (
