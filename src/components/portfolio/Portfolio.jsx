@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import PORT1 from "../../assets/port.png";
 import PORT2 from "../../assets/a.jpg";
-import PORT3 from "../../assets/myspitify.png";
+import PORT3 from "../../assets/real-estate.png";
 // import PORT4 from "../../assets/weather.png";
 // import PORT5 from "../../assets/greeting.jpg";
 // import PORT6 from "../../assets/slot.jpg";
@@ -25,9 +25,9 @@ const data = [
   {
     id: 3,
     image: PORT3,
-    title: "Spotify Clone",
-    github: "https://github.com/ruchik02/spotify-clone",
-    demo: "https://spotify-clone-html-css-js.netlify.app",
+    title: "Real-Estate Website",
+    github: "https://github.com/ruchik02/real-estate",
+    demo: "https://real-estate-bkxc.vercel.app/",
   },
   // {
   //   id: 4,
