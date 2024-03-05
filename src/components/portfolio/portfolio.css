@@ -19,12 +19,16 @@
     overflow: hidden;
 }
 .portfolio_item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 0.5rem;
 }
 .portfolio-item-cta{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+.para-port {
+    margin-bottom: 2rem;
+    font-size: small;
 }
 /* ==================================Media Query(MEDIUM DEVICES)================================== */
 @media screen and (max-width:1024px) {

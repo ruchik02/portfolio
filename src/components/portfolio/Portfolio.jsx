@@ -12,6 +12,7 @@ const data = [
     id: 1,
     image: PORT1,
     title: "Guessing Game",
+    description: "The project is built using HTML, CSS, and JavaScript.",
     github: "https://github.com/ruchik02/Guessing_game",
     demo: "https://guessing-game-using-js.netlify.app",
   },
@@ -19,6 +20,7 @@ const data = [
     id: 2,
     image: PORT2,
     title: "Hospital Website",
+    description: "The project is built using HTML, CSS, SCSS and JavaScript.",
     github: "https://github.com/ruchik02/Hospital-website",
     demo: "https://hospital-project01.netlify.app",
   },
@@ -26,6 +28,7 @@ const data = [
     id: 3,
     image: PORT3,
     title: "Real-Estate Website",
+    description: "The project is built using Typescript, React , Material UI, React Router and Vite.",
     github: "https://github.com/ruchik02/real-estate",
     demo: "https://real-estate-bkxc.vercel.app/",
   },
@@ -58,13 +61,14 @@ const Portfolio = () => {
       <h5>My Recent Projects</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo,description }) => {
           return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              <p className="para-port">{description}</p>
               <div className="portfolio-item-cta">
                 <a
                   href={github}
