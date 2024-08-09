@@ -17,9 +17,9 @@ import "swiper/css/pagination";
 const data = [
   {
     // avatar: AV1,
-    name: "High School",
+    name: "Bachelor of Engineering in Computer Science",
     review:
-      " During the academic year 2016-2017, I successfully completed my 10th-grade education at SD Public School. I proudly achieved a CGPA of 7.4, reflecting my consistent dedication to my studies.",
+      "I pursued my Bachelor of Engineering in Computer Science at Chitkara University, Himachal Pradesh, from 2019 to 2023. I have maintained a stellar CGPA of 9.74, showcasing my commitment to academic excellence and a profound understanding of the subject matter.",
   },
   {
     // avatar: AV2,
@@ -29,10 +29,12 @@ const data = [
   },
   {
     // avatar: AV3,
-    name: "Bachelor of Engineering in Computer Science",
+    name: "High School",
     review:
-      "I pursued my Bachelor of Engineering in Computer Science at Chitkara University, Himachal Pradesh, from 2019 to 2023. I have maintained a stellar CGPA of 9.74, showcasing my commitment to academic excellence and a profound understanding of the subject matter.",
+      " During the academic year 2016-2017, I successfully completed my 10th-grade education at SD Public School. I proudly achieved a CGPA of 7.4, reflecting my consistent dedication to my studies.",
   },
+ 
+ 
   // {
   //   // avatar: AV4,
   //   name: "Ritika Garg",

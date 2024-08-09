@@ -51,7 +51,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-              <h4>Vue.js</h4>
+              <h4>SwiftUI</h4>
               <small className='text-light'>Intermediate</small>
               </div>
               
