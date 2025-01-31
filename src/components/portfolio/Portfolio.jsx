@@ -3,6 +3,7 @@ import "./portfolio.css";
 import PORT1 from "../../assets/port.png";
 import PORT2 from "../../assets/a.jpg";
 import PORT3 from "../../assets/real-estate.png";
+import PORT4 from "../../assets/dashboard.png";
 // import PORT4 from "../../assets/weather.png";
 // import PORT5 from "../../assets/greeting.jpg";
 // import PORT6 from "../../assets/slot.jpg";
@@ -32,6 +33,14 @@ const data = [
     github: "https://github.com/ruchik02/real-estate",
     demo: "https://real-estate-bkxc.vercel.app/",
   },
+  {
+    id: 4,
+    image: PORT4,
+    title: "Dashboard Website",
+    description: "The project is built using React, Javascript, Material UI and Redux.",
+    github: "https://github.com/ruchik02/Basic_React_Project",
+    demo: "https://basic-react-project-kappa.vercel.app/",
+  }, 
   // {
   //   id: 4,
   //   image: PORT4,
