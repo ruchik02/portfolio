@@ -22,7 +22,7 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icons" />
               <h5>Experience</h5>
-              <small>2.5+ Years Working</small>
+              <small>3+ Years Working</small>
             </article>
 
             <article className="about_card">
@@ -38,7 +38,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am a skilled software developer with over 2.5+ year of valuable
+            I am a skilled software developer with over 3+ year of valuable
             experience, currently employed at GeekyAnts. My expertise primarily
             lies in React, SwiftUI and React-Native. I possess in-depth knowledge of
             various technologies and tools including git, state management,
