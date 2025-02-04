@@ -37,7 +37,7 @@ const data = [
     id: 4,
     image: PORT4,
     title: "Dashboard Website",
-    description: "The project is built using React, Javascript, Material UI and Redux.",
+    description: "The project is built using React, Javascript, Firebase, Material UI and Redux.",
     github: "https://github.com/ruchik02/Basic_React_Project",
     demo: "https://basic-react-project-kappa.vercel.app/",
   }, 
