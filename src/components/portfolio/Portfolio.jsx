@@ -4,6 +4,7 @@ import PORT1 from "../../assets/port.png";
 import PORT2 from "../../assets/a.jpg";
 import PORT3 from "../../assets/real-estate.png";
 import PORT4 from "../../assets/dashboard.png";
+import PORT0 from "../../assets/ai.png";
 // import PORT4 from "../../assets/weather.png";
 // import PORT5 from "../../assets/greeting.jpg";
 // import PORT6 from "../../assets/slot.jpg";
@@ -41,6 +42,14 @@ const data = [
     github: "https://github.com/ruchik02/Basic_React_Project",
     demo: "https://basic-react-project-kappa.vercel.app/",
   }, 
+  {
+    id: 5,
+    image: PORT0,
+    title: "AI Chatbot",
+    description: "The project is built using HTML, CSS, and JavaScript.",
+    github: "https://github.com/ruchik02/AI-ChotBot",
+    demo: "https://ai-chot-bot.vercel.app/",
+  },
   // {
   //   id: 4,
   //   image: PORT4,
